@@ -1,0 +1,22 @@
+<template>
+  <el-row class="top">
+    <el-col :span="10">
+      <geo />
+    </el-col>
+    <el-col :span="14">
+      <m-nav />
+    </el-col>
+  </el-row>
+</template>
+
+<script>
+import Geo from './geo'
+import MNav from './nav'
+
+export default {
+  components: {
+    Geo,
+    MNav
+  }
+}
+</script>
