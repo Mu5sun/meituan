@@ -1,5 +1,5 @@
 <template>
-  <el-row class="top">
+  <el-row class="m-header m-header-topbar">
     <el-col :span="10">
       <geo />
     </el-col>
@@ -20,3 +20,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  @import '@/assets/css/public/header/topbar.scss';
+</style>

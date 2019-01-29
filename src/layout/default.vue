@@ -1,5 +1,5 @@
 <template>
-  <div class="page-default">
+  <div class="layout-default">
     <el-container>
       <el-header>
         <m-header />
@@ -19,3 +19,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  @import '@/assets/css/public/layout.scss';
+</style>
